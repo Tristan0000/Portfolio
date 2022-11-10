@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="transContainer" id="transContainer"></div>
+<header>
+    <button onclick="navHandler()">
+        <div class="xContainer">
+            <div class="upper"></div>
+            <div class="under"></div>
+        </div>
+    </button>
+</header>
+
+<nav id="nav">
+    <button onclick="navi('home')">Home</button>
+    <button onclick="navi('overmij')">Over mij</button>
+    <button onclick="navi('skills')">Skills</button>
+    <button onclick="navi('contact')">Contact</button>
+</nav>
+
+<main>
+    <div id="home">
+        <h1>Portfolio</h1>
+        <hr>
+        <p>Tristan van Caspel</p>
+    </div>
+    <div id="overmij">
+        <h1>Mijn naam is Tristan van Caspel</h1>
+        <br>
+        <p>Ik ben 18 jaar oud en zit op de opleiding Software development op het ROC in almere buiten</p>
+    </div>
+    <div class="myskills" id="myskills">
+        <div class="text">
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">85%</div>
+            </div>
+
+            <p>PHP</p>
+            <div class="container">
+                <div class="skills php">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">70%</div>
+            </div>
+
+            <p>SQL</p>
+            <div class="container">
+                <div class="skills sql">65%</div>
+            </div>
+
+            <p>Java</p>
+            <div class="container">
+                <div class="skills java">30%</div>
+            </div>
+
+            <p>Wordpress</p>
+            <div class="container">
+                <div class="skills wp">30%</div>
+            </div>
+
+        </div>
+
+    <div id="contact"></div>
+</main>
+
+<script src="js/index.js"></script>
+</body>
+</html>
