@@ -150,18 +150,17 @@ main {
     width: 90%;
     background-color: #292929;
 }
-.myskills .skills {
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
 .myskills .skills{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: -15px;
     color: #292929;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .myskills{
+    display: none;
     box-sizing: border-box;
 }
 .myskills p {
@@ -191,29 +190,29 @@ main {
 }
 .myskills .html {
     width: 80%;
-    background-color: #292929;
+    background-color: lightblue;
 }
 .myskills .css {
     width: 80%;
-    background-color: #292929;
+    background-color: lightblue;
 }
 .myskills .js {
     width: 70%;
-    background-color: #292929;
+    background-color: lightblue;
 }
 .myskills .php {
     width: 70%;
-    background-color: #292929;
+    background-color: lightblue;
 }
 .myskills .sql {
     width: 70%;
-    background-color: #292929;
+    background-color: lightblue;
 }
 .myskills .java {
     width:30%;
-    background-color: #292929;
+    background-color: lightblue;
 }
 .myskills .wp {
     width: 30%;
-    background-color: #292929;
+    background-color: lightblue;
 }

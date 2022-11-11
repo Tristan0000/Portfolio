@@ -3,7 +3,7 @@ var transContainer = document.getElementById("transContainer");
 var nav = document.getElementById("nav");
 var home = document.getElementById("home");
 var overmij = document.getElementById("overmij");
-var skills = document.getElementById("skills");
+var myskills = document.getElementById("myskills");
 var contact = document.getElementById("contact");
 
 setTimeout(function() {
@@ -26,7 +26,7 @@ function navi(location) {
     setTimeout(function() {
         home.style.display = "none";
         overmij.style.display = "none";
-        skills.style.display = "none";
+        myskills.style.display = "none";
         contact.style.display = "none";
         document.getElementById(location).style.display = "block";
     }, 410);
