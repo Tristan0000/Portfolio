@@ -29,7 +29,7 @@ function navi(location) {
         myskills.style.display = "none";
         contact.style.display = "none";
         document.getElementById(location).style.display = "block";
-    }, 410);
+    }, 700);
     setTimeout(function () {
         transContainer.style.animationName = "none";
     },2000);
